@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/let1"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:text="A"
+        app:layout_constraintEnd_toStartOf="@+id/let2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <TextView
+        android:id="@+id/let2"
+        android:layout_width="81dp"
+        android:layout_height="63dp"
+        android:text="B"
+        app:layout_constraintEnd_toStartOf="@+id/let3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/let1"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <TextView
+        android:id="@+id/let3"
+        android:layout_width="70dp"
+        android:layout_height="67dp"
+        android:text="C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/let2"
+        tools:layout_editor_absoluteY="41dp" />
+</android.support.constraint.ConstraintLayout>
